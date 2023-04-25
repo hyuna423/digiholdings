@@ -1,0 +1,559 @@
+/* 공통요소 */
+#headline {
+    width: 100%;
+    height: 260px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/coin_bg.png)no-repeat center;
+}
+
+h4 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    width: 35%;
+}
+
+.section_area {
+    color: #fff;
+}
+
+.section_area .main_txt {
+    margin-top: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.section_area .main_txt p {
+    line-height: 1.6;
+}
+
+
+/* coin */
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.coin_img {
+    text-align: center;
+    padding: 4% 0;
+}
+
+.coin_img img {
+    max-width: 60%;
+}
+
+.coin_logo_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 0 0 0;
+}
+
+.coin_logo_area li {
+    background-color: #EDEDED;
+    width: 20%;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin_logo_area li img {
+    max-height: 100%;
+}
+
+.coin_logo_area li img:first-child {
+    padding: 4% 0;
+}
+
+.coin_img p,
+.platform_nft_area p {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+/* NFT */
+#NFT #headline {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nft_bg.jpg)no-repeat center;
+    background-size: 100% auto;
+}
+
+.nft_area,
+.platform_nft_area {
+    padding: 4% 0;
+    box-sizing: border-box;
+}
+
+.nft_area h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nft_list,
+.platform_list {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nft_list li {
+    position: relative;
+    width: 23%;
+    box-sizing: border-box;
+    margin-right: 1%;
+    overflow: hidden;
+}
+
+.nft_list li:last-child {
+    margin-right: 0;
+}
+
+.nft_list li img {
+    max-width: 100%;
+    transition: all 0.5s;
+}
+
+.nft_list li:hover img {
+    transform: scale(1.02);
+}
+
+.nft_list li span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    line-height: 255px;
+    text-align: center;
+    background-color: #00000084;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+
+.nft_list li:hover a span {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* platform */
+#sub_platform #headline {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/platform_bg.jpg)no-repeat center;
+    background-size: cover;
+}
+
+.platform_nft_area .platform_list li {
+    width: 49%;
+
+}
+
+.platform_nft_area .platform_list li a {
+    border: 1px solid #CDCDCD;
+    display: block;
+    position: relative;
+}
+
+.platform_nft_area .platform_list li img {
+    max-width: 100%;
+}
+
+.platform_list li a span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+
+.platform_list li span button {
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: #fff;
+    transition: all .3s;
+}
+
+.platform_list li:hover span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.platform_list li span button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.platform_list li h6 {
+    padding-top: 3%;
+    font-size: 12px;
+    color: #545454;
+}
+
+/*  crape*/
+
+#crape #headline {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/crape_bg.jpg)no-repeat center bottom;
+    background-size: cover;
+}
+
+#crape p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+/* service */
+#service #headline {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/con_bg5.png)no-repeat top;
+    background-size: cover;
+}
+
+#service .service_area {
+    padding-top: 80px;
+    line-height: 2;
+}
+
+#service .service_area ol {
+    padding-bottom: 3%;
+}
+
+#service .service_area ol h5 {
+    padding-bottom: 3%;
+    font-size: 1rem;
+}
+
+#service .service_area p {
+    padding-bottom: 3%;
+}
+
+#service .service_area ul.sns_list {
+    display: flex;
+
+}
+
+#service .service_area ul.sns_list li {
+    margin-right: 3%;
+}
+
+#service .service_area ul.sns_list li:last-child {
+    margin-right: 0;
+}
+
+#service .service_area ul.sns_list li img {
+    max-width: 50px;
+}
+
+
+
+/* reference _sub */
+#token {
+    position: relative;
+    box-sizing: border-box;
+    clear: both;
+}
+
+#token #headline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/token_bg.png)no-repeat top;
+    background-size: cover;
+
+}
+
+#token .section_area {
+    position: relative;
+}
+
+#token .section_area .main_txt {
+    display: block;
+}
+
+#token .section_area .main_txt hr {
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+#token .token_area {
+    padding: 40px 0;
+}
+
+#token .token_area ul {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#token .token_area ul li {
+    width: 20%;
+    display: flex;
+}
+
+#token .token_area ul li img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+#token .token_area a {
+    margin-top: 30px;
+    display: block;
+    text-align: right;
+    color: #000;
+    text-decoration: underline;
+}
+
+#token .token_area ul li a {
+    margin: 0 auto;
+}
+
+#token .token_area a:hover {
+    text-shadow: 2px 2px 2px gray;
+}
+
+
+/* nft platform */
+.nft_platform .platform_nft_area .platform_list {
+    flex-wrap: wrap;
+}
+
+.nft_platform .platform_nft_area .platform_list li {
+    margin-bottom: 4%;
+    border-top: 1px solid #CACACA;
+    padding-top: 30px;
+}
+
+.nft_platform .platform_nft_area .platform_list li:nth-child(1),
+.nft_platform .platform_nft_area .platform_list li:nth-child(2) {
+    border-top: none;
+}
+
+.nft_platform .platform_nft_area .platform_list button {
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+.nft_platform .platform_nft_area .platform_list button:hover {
+
+    color: #fff;
+}
+
+
+/* exchange */
+#token.exchange {
+    height: 80vh;
+    overflow: hidden;
+}
+
+#token.exchange #headline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/exchange_bg.png)no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+
+}
+
+#token.exchange .exchange_area {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 2% 0;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+
+
+#token.exchange .exchange_area ul {
+    display: flex;
+    width: 100%;
+
+}
+
+#token.exchange .exchange_area ul li {
+    width: 20%;
+    text-align: center;
+}
+
+#token.exchange .exchange_area ul li a img {
+    max-height: 30px;
+}
+
+#token.exchange .exchange_area .link_box {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#token.exchange .exchange_area .link_box .btn_box {
+    padding: 20px 0;
+}
+
+#token.exchange .exchange_area .link_box .btn_box button {
+    background: #1A1A1A;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 18px;
+}
+
+#toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#app {
+    padding: 30px 0 0 0;
+    color: #FFF;
+    font-size: 1rem;
+    text-align: center;
+    transition: all .5s;
+}
+
+
+.button {
+    text-align: center;
+    color: black;
+    transition: -webkit-transform calc(var(--duration) / 2) var(--easing);
+    transition: transform calc(var(--duration) / 2) var(--easing);
+    transition: transform calc(var(--duration) / 2) var(--easing), -webkit-transform calc(var(--duration) / 2) var(--easing);
+    will-change: transform;
+}
+
+.button:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+/* ---------------------------------- */
+.bg-description {
+    -webkit-transform: translateY(-140%);
+    transform: translateY(-140%);
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+.description {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(-80%);
+    transform: translateY(-80%);
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+    transition: all .5s;
+    margin-top: 2%;
+    margin-bottom: -85px;
+}
+
+.description button:nth-child(2) {
+    margin: 0 20px;
+}
+
+.button .fa-solid {
+    transform: rotate(-90deg);
+    transition: all .3s;
+}
+
+#toggle:checked~.description {
+    opacity: 1;
+    margin-bottom: 2%;
+    visibility: visible;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+#toggle:checked~* .button:before {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+#toggle:checked~* .bg-description {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+#toggle:checked~* .button .fa-solid {
+    transform: rotate(0);
+}
+
+.btn2 {
+    position: relative;
+    display: inline-block;
+    width: auto; height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px 0px 15px;
+    min-width: 150px;
+}
+.btn2 span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+  }
+
+/*--- btn-1 ---*/
+.btn-2::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(28, 31, 30);
+    transition: 0.3s ease-out;
+  }
+  .btn-2 span {
+    color: rgb(255,255,255);
+    border: 1px solid rgb(28, 31, 30);
+    transition: 0.2s 0.1s;
+  }
+  .btn-2 span:hover {
+    color: rgb(28, 31, 30);
+    transition: 0.2s 0.1s;
+  }
+  
+  /* 1.hover-filled-slide-down */
+  .btn2.hover-filled-slide-down::before {
+    position: absolute;
+    content: "";
+    bottom: 0; left: 0; right: 0; 
+    height: 100%; width: 100%;
+  }
+  .btn2.hover-filled-slide-down:hover::before {
+    height: 0%;
+  }

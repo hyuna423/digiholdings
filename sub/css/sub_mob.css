@@ -1,0 +1,222 @@
+/*데탑*/
+@media screen and (max-width:1440px) {}
+
+
+
+/*노트북*/
+@media screen and (max-width:1024px) {
+  header .pc_nav ul.main_menu {
+    width: 80%;
+  }
+
+  #token.exchange .section_area .main_txt {
+    margin-top: 45%;
+  }
+}
+
+
+
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+
+  #token.exchange .section_area .main_txt {
+    margin-top: 35%;
+  }
+
+  h4 {
+    width: 100%;
+}
+
+
+}
+
+
+
+/*모바일*/
+
+@media screen and (max-width:767px) {
+  section {
+    padding: 50px 0;
+}
+
+  .section_area .main_txt {
+    flex-direction: column;
+}
+
+.nft_list li {
+  position: relative;
+  width: 48%;
+  margin: 0;
+}
+
+.nft_list li:nth-child(1),
+  .nft_list li:nth-child(2){
+  margin-bottom: 4%;
+}
+
+
+  .platform_nft_area .platform_list li {
+    width: 100%;
+  }
+
+  .nft_list, .platform_list {
+    flex-wrap: wrap;
+}
+
+  .coin_img p,
+  .platform_nft_area p {
+    font-size: 20px;
+  }
+
+  .section_area .main_txt p br {
+    display: none;
+}
+
+  .coin_img img {
+    max-width: 100%;
+    padding: 5% 0;
+}
+
+  #token .token_area ul {
+    flex-wrap: wrap;
+  }
+
+  #token .token_area ul li {
+    width: 33%;
+  }
+
+  #token .token_area ul li:nth-child(1),
+  #token .token_area ul li:nth-child(2),
+  #token .token_area ul li:nth-child(3) {
+    margin-bottom: 5%;
+  }
+
+
+  #token.exchange .exchange_area ul {
+    padding: 3%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nft_platform .platform_nft_area .platform_list li:nth-child(2) {
+    border-top: 1px solid #CACACA;
+  }
+
+  #token.exchange .exchange_area ul li {
+    margin-top: 3%;
+    width: 33%;
+  }
+
+  #token.exchange .section_area .main_txt {
+    margin-top: 60%;
+  }
+
+
+}
+
+
+/*모바일2*/
+
+
+@media screen and (max-width:576px) {
+  .section_area .main_txt h4 {
+    width: 100%;
+  }
+
+  .section_area .main_txt p br {
+    display: none;
+  }
+
+  .coin_logo_area {
+    flex-wrap: wrap;
+  }
+
+  .nft_list li {
+    position: relative;
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+
+.platform_nft_area .platform_list li {
+  margin-bottom: 4%;
+}
+
+  #token.exchange .section_area .main_txt {
+    margin-top: 0%;
+  }
+
+
+  #token.exchange .exchange_area ul li {
+    margin-top: 5%;
+    width: 48%;
+  }
+
+  .coin_logo_area li {
+    background-color: #EDEDED;
+    width: 48%;
+  }
+
+  .coin_logo_area li:nth-child(1),
+  .coin_logo_area li:nth-child(2){
+    margin-bottom: 4%;
+
+  }
+
+  #crape p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+
+  #token.exchange {
+    height: 100vh;
+  }
+
+  #token .section_area .main_txt span {
+    line-height: 2;
+    margin-bottom: 10px;
+  }
+
+  #token.exchange .exchange_area {
+    margin-top: 20%;
+  }
+
+  #service .service_area ul.sns_list {
+    display: flex;
+    justify-content: space-between;
+}
+#service .service_area ol li{
+  font-size: 12px;
+}
+
+#service .service_area ul.sns_list li {
+  margin-right: 0;
+}
+
+  .coin_img p,
+  .platform_nft_area p {
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+}
+
+/*모바일3 갤럭시*/
+
+@media screen and (max-width:425px) {
+  #token .section_area .main_txt {
+    margin-top: 0%;
+  }
+
+  #token .token_area ul li {
+    width: 48%;
+  }
+}
+
+
+
+/*모바일4 아이폰*/
+@media screen and (max-width:375px) {}

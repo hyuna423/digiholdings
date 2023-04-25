@@ -1,0 +1,210 @@
+/*데탑*/
+@media screen and (max-width:1440px) {}
+
+
+
+/*노트북*/
+@media screen and (max-width:1024px) {
+  header .pc_nav ul.main_menu {
+    width:100%;
+  }
+
+  /* main */
+  .main_video {
+    width: auto;
+    height: 100%;
+  }
+
+  .home_wrap .home_content .home_txt h2 img {
+    max-width: 80%;
+}
+
+.home_wrap {
+  height: 35%;
+}
+
+#consulting .consulting_area .consul_box_area .cons_box h5 {
+  font-size: 24px;
+}
+}
+
+
+
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+  header .nav h1 {
+    width: 16%;
+  }
+
+  header .pc_nav ul.main_menu  {
+    width: 70%;
+  }
+
+  #platform .plat_box span {
+    font-size: 2rem;
+  }
+
+  #contact .contact_area .form_area {
+    padding: 3% 3% 15%;
+}
+
+
+  #contact .contact_area form .btn {
+    bottom: -18%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #contact .contact_area form span {
+    font-size: 14px;
+  }
+
+  #contact .contact_area h3 {
+    font-size: 3rem;
+    padding-top: 60%;
+}
+  
+}
+
+
+
+/*모바일*/
+
+@media screen and (max-width:767px) {
+  header{
+    height:60px;
+  }
+  header .pc_nav {
+    display: none;
+  }
+  
+  nav .menu-btn {
+    visibility: visible;
+  }
+  nav .sub-menu-btn {
+    visibility: visible;
+}
+
+nav.mob_nav {
+  --transition-time: 500ms;
+  position: fixed;
+  width: 100%;
+}
+#intro .intro_area {
+  padding: 40px 0;
+}
+#intro .intro_area p{
+  padding: 0 5%;
+  line-height: 2.2;
+}
+#intro .intro_area p br {
+  display: none;
+}
+
+#intro .intro_area p br.must {
+  display: block;
+}
+
+
+#consulting .consulting_area hgroup h3 {
+  margin-right: 12px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#consulting .consulting_area .consul_box_area .cons_box {
+  width: 48%;
+}
+
+#consulting .consulting_area .consul_box_area .cons_box a span {
+  right: 20px;
+  bottom: 20px;}
+
+  #consulting .consulting_area .consul_box_area .cons_box h5 {
+    position: absolute;
+    line-height: 328px;
+    font-size: 24px;
+    padding: 6%;
+}
+
+#consortium .cons_logo .container {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#consortium .cons_logo a {
+  width: 30%;
+}
+
+#platform .plat_box {
+  height: 300px;
+}
+
+#platform .plat_box span {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+#contact .contact_area form .btn {
+  width: 170px;
+  padding: 7% 3%;
+}
+
+}
+
+/*모바일2*/
+
+
+@media screen and (max-width:576px) {
+  #intro .intro_area h3 {
+    font-size: 1.5rem;
+}
+
+#consulting .consulting_area hgroup {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#consulting .consulting_area .consul_box_area .cons_box {
+  width: 100%;
+}
+#platform {
+  flex-direction: column;
+}
+
+#platform .plat_box {
+  width: 100%;
+}
+
+#contact .contact_area {
+  flex-direction: column;
+  padding: 8% 0;
+}
+
+
+#contact .contact_area h3 {
+  width: 100%;
+}
+
+#contact .contact_area .form_area {
+  width: 100%;
+}
+
+#contact .contact_area form .btn {
+  position: relative;
+  display: block;
+  padding: 5%;
+}
+
+#contact .contact_area form span {
+  padding:5%;
+}
+}
+/*모바일3 갤럭시*/
+
+@media screen and (max-width:425px) {}
+
+
+
+/*모바일4 아이폰*/
+@media screen and (max-width:375px) {}
