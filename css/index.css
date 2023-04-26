@@ -34,7 +34,6 @@ header .mob_on{
 
 
 
-
 /*헤더*/
 
 header {
@@ -47,6 +46,7 @@ header {
 }
 
 header .pc_nav {
+  height: 80px;
   line-height: 80px;
   display: flex;
   justify-content: space-between;
@@ -70,12 +70,14 @@ header .mob_on{
 
 header .pc_nav ul.main_menu {
   width: 40%;
-  display: flex;
+  display: flex;4fkd
   justify-content: space-between;
   position: relative;
 }
 
 header .pc_nav ul.main_menu>li {
+  height: 80px;
+  line-height: 80px;
   text-align: center;
   width: 25%;
   position: relative;
@@ -448,18 +450,6 @@ nav.sub-menu-open .nav-links .hover-el {
 }
 
 
-/* loading */
-/* .filler-loader {
-  height: 32px;
-  width: 32px;
-  transform: rotate(-90deg);
-}
-.filler-loader .fill-path {
-  fill: none;
-  stroke: white;
-  stroke-linecap: butt;
-  stroke-width: 8px;
-} */
 
 
 /* main */
