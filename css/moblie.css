@@ -5,9 +5,28 @@
 
 /*노트북*/
 @media screen and (max-width:1024px) {
-  header .pc_nav ul.main_menu {
-    width:100%;
+
+
+  .mob_on{
+    display:block !important;
   }
+  header{
+    height:60px;
+  }
+  header .pc_nav {
+    display: none;
+  }
+
+  nav.mob_nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  nav .menu-btn {
+    opacity: 1;
+    visibility: visible;
+  }
+
 
   /* main */
   .main_video {
@@ -71,19 +90,6 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
-  header{
-    height:60px;
-  }
-  header .pc_nav {
-    display: none;
-  }
-  
-  nav .menu-btn {
-    visibility: visible;
-  }
-  nav .sub-menu-btn {
-    visibility: visible;
-}
 
 nav.mob_nav {
   --transition-time: 500ms;
@@ -156,6 +162,7 @@ nav.mob_nav {
 
 
 @media screen and (max-width:576px) {
+
   #intro .intro_area h3 {
     font-size: 1.5rem;
 }

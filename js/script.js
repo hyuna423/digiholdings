@@ -1,5 +1,3 @@
-console.clear();
-
 const nav = document.querySelector(".mob_nav");
 const navLinksContainer = document.querySelector(".nav-links");
 const navLinks = [...document.querySelectorAll(".link")];

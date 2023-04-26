@@ -12,6 +12,9 @@
   #token.exchange .section_area .main_txt {
     margin-top: 45%;
   }
+
+
+  
 }
 
 
@@ -26,6 +29,7 @@
   h4 {
     width: 100%;
 }
+
 
 
 }
@@ -144,7 +148,7 @@
 }
 
   #token.exchange .section_area .main_txt {
-    margin-top: 0%;
+    margin-top: 30%;
   }
 
 
@@ -208,7 +212,7 @@
 
 @media screen and (max-width:425px) {
   #token .section_area .main_txt {
-    margin-top: 0%;
+    margin-top: 30%;
   }
 
   #token .token_area ul li {
